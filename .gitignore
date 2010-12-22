@@ -3,3 +3,4 @@
 build/**/*
 .svn
 */.svn
+.DS_Store
