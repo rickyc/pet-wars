@@ -1,0 +1,8 @@
+Pet Wars
+====
+NYU iPhone Programming Spring 2009 Final Project
+Winner of Apple, Inc's best student application.
+http://www.cs.nyu.edu/courses/spring09/V22.0480-004/iphone_apps.html
+
+This code is probably really deprecated now as it was written for iPhone 3.0beta.
+This code needs major refactoring and should only be used as a sample.
