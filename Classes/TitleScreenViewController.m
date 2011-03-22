@@ -89,7 +89,7 @@ BOOL gameStarted;
 }
 
 - (IBAction)launchInstructions:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"Instructions" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Instructions" timeSession:NO];
 	[HelperMethods playSound:@"click"];	
 	
 	instructionsViewController = [[InstructionsViewController alloc] initWithNibName:@"InstructionsView" bundle:[NSBundle mainBundle]];
@@ -319,7 +319,7 @@ BOOL gameStarted;
 }
 
 -(void)createANewPet {
-	[[Beacon shared] startSubBeaconWithName:@"Created New Pet" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Created New Pet" timeSession:NO];
 	//DATETIME('NOW')
 	
 	NSNumber *hp = [NSNumber numberWithInt:arc4random()%5+30];

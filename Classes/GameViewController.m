@@ -555,7 +555,7 @@ CGPoint oldPosition;
 
 #pragma mark JukeBox Methods
 - (IBAction)playJukeBox:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"Juke Box" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Juke Box" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 
 	if([musicPlayer nowPlayingItem] != nil) {
@@ -594,7 +594,7 @@ CGPoint oldPosition;
 
 #pragma mark Mini Games Method
 - (IBAction)playMiniGames:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"Mini-Games" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Mini-Games" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 	
 	if(miniGamesViewController == nil) {
@@ -610,7 +610,7 @@ CGPoint oldPosition;
 
 #pragma mark Store Method
 - (IBAction)gotoStore:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"Market" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Market" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 	
 	// FIX: LOAD IN SEPARATE THREAD

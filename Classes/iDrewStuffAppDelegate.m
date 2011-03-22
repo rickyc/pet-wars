@@ -7,7 +7,6 @@
 //
 
 #import "iDrewStuffAppDelegate.h"
-#import "Beacon.h"
 
 @interface iDrewStuffAppDelegate (Private)
 	-(void) createEditableCopyOfDatabaseIfNeeded;
@@ -23,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// used for pinchmedia
 	NSString *applicationCode = @"ab8b100314d4fee6512e6fd23c1f82d8";
-    [Beacon initAndStartBeaconWithApplicationCode:applicationCode useCoreLocation:NO useOnlyWiFi:NO];
+  //  [Beacon initAndStartBeaconWithApplicationCode:applicationCode useCoreLocation:NO useOnlyWiFi:NO];
     
 	// push notification	
 	if (launchOptions) {
@@ -70,7 +69,7 @@
  applicationWillTerminate: saves changes in the application's managed object context before the application terminates.
  */
 - (void)applicationWillTerminate:(UIApplication *)application {
-	[[Beacon shared] endBeacon];
+//	[[Beacon shared] endBeacon];
 	
 	// remove badge count
 	application.applicationIconBadgeNumber = 0;

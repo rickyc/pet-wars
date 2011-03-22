@@ -69,7 +69,7 @@
 }
 
 - (void)showHighScores:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"High Scores" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"High Scores" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 	
 	if(globalDataViewController == nil)
@@ -78,7 +78,7 @@
 }
 
 - (void)showP2PInventory:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"P2P Inventory" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"P2P Inventory" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 	
 	if(weaponsViewController == nil)
@@ -87,7 +87,7 @@
 }
 
 - (void)showInventory:(id)sender {
-	[[Beacon shared] startSubBeaconWithName:@"Inventory" timeSession:NO];
+//	[[Beacon shared] startSubBeaconWithName:@"Inventory" timeSession:NO];
 	[HelperMethods playSound:@"click"];
 	
 	if(inventoryViewController == nil) {

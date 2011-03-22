@@ -13,6 +13,5 @@
     #import <CoreData/CoreData.h>
 	#import "HelperMethods.h"
 	#import "GlobalData.h"
-	#import "Beacon.h"
 	#import "PWAlert.h"
 #endif
